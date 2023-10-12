@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Dasar.welcome');
+    return view('Dashboard');
 });
 Route::get('/home', function () {
     return view('home');
