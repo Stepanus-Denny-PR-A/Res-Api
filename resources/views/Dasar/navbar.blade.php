@@ -3,10 +3,7 @@
 @section("isi")
 <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <img src="https://belajar.usd.ac.id/pluginfile.php/1/theme_moove/logo/1693193463/logo_usd.png" class="img-fluid img-thumbnail" style="width: 10rem">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-4">
           <li class="nav-item">
@@ -25,7 +22,7 @@
             <a class="nav-link active" aria-current="page" href="#">Tambah Ruang</a>
           </li>
         </ul>
-      </div>
+    </div>
     </div>
   </nav>
   @yield("isi_bawah_nav")
