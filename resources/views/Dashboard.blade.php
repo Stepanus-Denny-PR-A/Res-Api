@@ -1,5 +1,5 @@
 @extends("Dasar.navbar")
-@section("isi_bawah_nav")
+@section("isi")
 <div class="album py-5 bg-body-tertiary ">
     <h1 class="h1 text-center mt-5 mb-5">DASHBOARD</h1>
     <div class="container d-flex justify-content-center">
@@ -9,7 +9,7 @@
             <div class="card-body">
               <h5 class="card-title">Ruang Lab</h5>
               <p class="card-text">Berisi Data tentang barang di ruang lab</p>
-              <a href="#" class="btn btn-primary">Lihat</a>
+              <a href="/Lab" class="btn btn-primary">Lihat</a>
             </div>
           </div>
           <div class="card" style="width: 10rem;">
@@ -17,7 +17,7 @@
             <div class="card-body">
               <h5 class="card-title">Ruang kelas</h5>
               <p class="card-text">Data tentang barang di ruang kelas</p>
-              <a href="#" class="btn btn-primary">Lihat</a>
+              <a href="/Kelas" class="btn btn-primary">Lihat</a>
             </div>
           </div>
           <div class="card" style="width: 10rem;">
