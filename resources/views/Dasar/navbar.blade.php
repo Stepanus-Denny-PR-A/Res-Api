@@ -1,16 +1,22 @@
 @extends('Dasar.dasar_boostrap')
 @section("judul") Main @endsection
-@section("isi")
-<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+@section("isi_boostrap")
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <img src="https://belajar.usd.ac.id/pluginfile.php/1/theme_moove/logo/1693193463/logo_usd.png" class="img-fluid img-thumbnail" style="width: 10rem">
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-4">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Dashboard</a>
+              </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">LAB</a>
+            <a class="nav-link active" aria-current="page" href="/Lab">Lab</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Kelas</a>
+            <a class="nav-link active" aria-current="page" href="/Kelas">Kelas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Pengajuan</a>
@@ -25,5 +31,5 @@
     </div>
     </div>
   </nav>
-  @yield("isi_bawah_nav")
+  @yield("isi")
 @endsection
