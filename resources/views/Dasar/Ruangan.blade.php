@@ -12,12 +12,12 @@
                     </form>
                 </div>
             </div>
-        <div class="container w-75">
-            <h4 class="row gap-3 mt-5 rounded-pill">
-                <button type="button" class="btn btn-primary col rounded-pill">Primary</button>
-                <button type="button" class="btn btn-primary col rounded-pill">Primary</button>
-                <button type="button" class="btn btn-primary col rounded-pill">Primary</button>
-                <button type="button" class="btn btn-primary col rounded-pill">Primary</button>
+        <div class="container w-75 ">
+            <h4 class="row gap-3 mt-5">
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
             </h4>
         </div>
     </div>

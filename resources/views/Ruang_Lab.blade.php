@@ -5,3 +5,6 @@
 @section('judul_ruangan')
     Ruang Lab
 @endsection
+@section('arah')
+/Isi_Kelas?nama=Ruang Lab
+@endsection
