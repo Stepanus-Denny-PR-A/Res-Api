@@ -22,3 +22,6 @@ Route::get('/Lab', function () {
 Route::get('/Kelas', function () {
     return view('Ruang_Kelas');
 });
+Route::get('/tes', function () {
+    return view('Dasar.isi_ruang');
+});
