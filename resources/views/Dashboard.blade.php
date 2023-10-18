@@ -1,4 +1,7 @@
 @extends("Dasar.navbar")
+@section('judul')
+    Dashboard
+@endsection
 @section("isi")
 <div class="album py-5 bg-body-tertiary ">
     <h1 class="h1 text-center mt-5 mb-5">DASHBOARD</h1>
