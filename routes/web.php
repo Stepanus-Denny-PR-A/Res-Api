@@ -22,6 +22,9 @@ Route::get('/Lab', function () {
 Route::get('/Kelas', function () {
     return view('Ruang_Kelas');
 });
-Route::get('/tes', function () {
+Route::get('/Isi_Kelas', function () {
+    return view('Dasar.isi_ruang');
+});
+Route::get('/Isi_LAB', function () {
     return view('Dasar.isi_ruang');
 });
