@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('login');
+});
+Route::get('/Dashboard', function () {
     return view('Dashboard');
 });
 Route::get('/Lab', function () {
@@ -27,4 +30,25 @@ Route::get('/Isi_Kelas', function () {
 });
 Route::get('/Isi_LAB', function () {
     return view('Dasar.isi_ruang');
+});
+Route::get('/Tambah_Barang', function () {
+    return view('venta.Tambah_Barang');
+});
+Route::get('/Barcode', function () {
+    return view('venta.barcode');
+});
+Route::get('/pengajuan', function () {
+    return view('venta.pengajuan');
+});
+Route::get('/pengajuan_isi', function () {
+    return view('venta.isi_Pengajuan');
+});
+Route::get('/Barang', function () {
+    return view('Dasar.isi_ruang');
+});
+Route::get('/user_info', function () {
+    return view('venta.user_info');
+});
+Route::get('/Tambah_ruang', function () {
+    return view('venta.tambah_ruangan');
 });

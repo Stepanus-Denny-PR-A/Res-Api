@@ -14,10 +14,10 @@
             </div>
         <div class="container w-75 ">
             <h4 class="row gap-3 mt-5">
-                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
-                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
-                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
-                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Link</a>
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Ruang 1</a>
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Ruang 2</a>
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Ruang 3</a>
+                <a class="btn btn-primary col rounded-pill" href="@yield('arah')" role="button">Ruang 4</a>
             </h4>
         </div>
     </div>

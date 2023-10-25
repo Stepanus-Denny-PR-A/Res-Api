@@ -12,7 +12,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-4">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Dashboard</a>
+                        <a class="nav-link active" aria-current="page" href="/Dashboard">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/Lab">Lab</a>
@@ -21,16 +21,16 @@
                         <a class="nav-link active" aria-current="page" href="/Kelas">Kelas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Pengajuan</a>
+                        <a class="nav-link active" aria-current="page" href="/pengajuan">Pengajuan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Barang</a>
+                        <a class="nav-link active" aria-current="page" href="/Barang?nama=Barang">Barang</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Tambah Ruang</a>
+                        <a class="nav-link active" aria-current="page" href="/Tambah_Barang">Tambah Ruang</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Akun</a>
+                        <a class="nav-link active" aria-current="page" href="/">Logout</a>
                     </li>
                 </ul>
             </div>
