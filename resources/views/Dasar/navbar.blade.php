@@ -27,7 +27,7 @@
                         <a class="nav-link active" aria-current="page" href="/Barang?nama=Barang">Barang</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/Tambah_Barang">Tambah Ruang</a>
+                        <a class="nav-link active" aria-current="page" href="/Tambah_ruang">Tambah Ruang</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Logout</a>

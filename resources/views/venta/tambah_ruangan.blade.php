@@ -22,6 +22,7 @@
 </style>
 @endsection
 @section("isi")
+<h1><b>Tambah Ruang</b></h1>
     <form>
         <div class="row mb-3">
             <label for="inputNamaRuang" class="col-sm-2 col-form-label">Nama Ruang</label>
