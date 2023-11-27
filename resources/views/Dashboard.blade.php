@@ -39,14 +39,7 @@
               <a href="/Barang?nama=Barang" class="btn btn-primary">Lihat</a>
             </div>
           </div>
-        <div class="card" style="width: 13rem;">
-          <img src="https://cdn0.iconfinder.com/data/icons/ui-16px-perfect-megapack-line/16/82_Add-512.png" class="card-img-top" alt="foto tambah">
-          <div class="card-body">
-            <h5 class="card-title">Tambah ruang</h5>
-            <p class="card-text">menu untuk menambah ruangan</p>
-            <a href="/Tambah_ruang" class="btn btn-primary">Lihat</a>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
